@@ -1,0 +1,95 @@
+.banner-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #0b0f19;
+  text-align: center;
+  padding-top: 0; /* removes top space */
+  margin: 0;
+}
+
+.banner-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -40px; /* reduces extra top gap */
+}
+
+.banner-img {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  border: 3px solid #2563eb;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.banner-role {
+  background-color: #13254b;
+  color: #6ea8fe;
+  padding: 8px 18px;
+  border-radius: 999px;
+  font-size: 16px;
+  margin-bottom: 12px;
+}
+
+.banner-name {
+  font-size: 48px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+.banner-name span {
+  color: #a78bfa;
+}
+
+.banner-description {
+  color: #ccc;
+  font-size: 18px;
+  line-height: 1.6;
+  max-width: 700px;
+  margin-bottom: 28px;
+}
+
+.banner-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.banner-tags span {
+  background-color: #111827;
+  color: #f1f1f1;
+  padding: 8px 18px;
+  border-radius: 25px;
+  font-size: 15px;
+}
+
+.banner-buttons {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+}
+
+.btn-primary {
+  background-color: #2563eb;
+  color: #fff;
+  padding: 12px 26px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.btn-outline {
+  border: 2px solid #2563eb;
+  color: #fff;
+  padding: 12px 26px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+}

@@ -1,0 +1,132 @@
+.education-section {
+  background: linear-gradient(to bottom, #0f172a, #1e293b);
+  color: white;
+  min-height: 100vh;
+  padding: 80px 0;
+}
+
+.education-container {
+  max-width: 850px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.education-title {
+  text-align: center;
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.education-subtitle {
+  text-align: center;
+  color: #94a3b8;
+  margin-bottom: 50px;
+  font-size: 1rem;
+}
+
+/* Cards */
+.education-card {
+  background: rgba(255, 255, 255, 0.06);
+  border-radius: 20px;
+  padding: 30px;
+  margin-bottom: 30px;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.4);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.education-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 0 40px rgba(59, 130, 246, 0.3);
+}
+
+.gradient-blue {
+  background: linear-gradient(to right, #1e3a8a, #3b82f6);
+}
+
+.gradient-purple {
+  background: linear-gradient(to right, #6d28d9, #9333ea);
+}
+
+.gradient-teal {
+  background: linear-gradient(to right, #0f766e, #14b8a6);
+}
+
+/* Badge */
+.edu-badge {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 6px 14px;
+  border-radius: 30px;
+  font-size: 0.85rem;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+/* Headings */
+.edu-degree {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.edu-college {
+  font-size: 1rem;
+  color: #e2e8f0;
+  margin-bottom: 8px;
+}
+
+/* Details (icons + text) */
+.edu-details {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  color: #d1d5db;
+  font-size: 0.95rem;
+  margin: 8px 0 15px;
+}
+
+.edu-details svg {
+  vertical-align: middle;
+}
+
+/* Description */
+.edu-description {
+  color: #f1f5f9;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+/* Info boxes */
+.edu-info-box {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 10px;
+  padding: 12px 16px;
+  margin-top: 10px;
+}
+
+.edu-info-box h4 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.edu-info-box p {
+  font-size: 0.9rem;
+  color: #dbeafe;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .education-title {
+    font-size: 2rem;
+  }
+
+  .education-card {
+    padding: 20px;
+  }
+
+  .edu-details {
+    flex-direction: column;
+    gap: 6px;
+  }
+}

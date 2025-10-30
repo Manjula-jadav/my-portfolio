@@ -1,0 +1,49 @@
+.footer {
+  text-align: center;
+  padding: 40px 0;
+  background-color: transparent;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+.footer h2 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.footer p {
+  font-size: 16px;
+  color: #cbd5e1;
+  margin: 5px 0;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px; /* perfect spacing between icons */
+  margin: 20px 0;
+}
+
+.social-icons a {
+  color: #ffffff;
+  font-size: 28px;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #60a5fa;
+  transform: scale(1.15);
+}
+
+.made-by {
+  margin-top: 15px;
+  font-size: 15px;
+  color: #cbd5e1;
+}
+
+.heart {
+  color: white;
+  margin: 0 5px;
+}

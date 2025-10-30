@@ -1,0 +1,96 @@
+/* Plain, minimal contact layout (no cards, no clickable styling) */
+.contact-section {
+  background: #0b0f19; /* keep your dark theme */
+  color: #e6edf3;
+  padding: 48px 20px;
+  text-align: left;
+  font-family: "Inter", "Poppins", sans-serif;
+}
+
+.contact-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 6px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.contact-subtitle {
+  color: #9aa3b1;
+  max-width: 800px;
+  margin: 0 auto 28px;
+  text-align: center;
+  line-height: 1.6;
+}
+
+/* list layout (normal spacing) */
+.contact-list {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 18px; /* normal vertical spacing between items */
+  padding: 0 12px;
+}
+
+.contact-row {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+/* icon style (decorative) */
+.contact-icon {
+  width: 34px;
+  height: 34px;
+  color: #6ea8ff;
+  flex-shrink: 0;
+}
+
+/* text */
+.contact-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-label {
+  font-size: 0.95rem;
+  color: #a0a8b4;
+  margin-bottom: 4px;
+}
+
+.contact-value {
+  font-size: 1.05rem;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+/* connect box — simple (not boxed look, just subtle background) */
+.plain-connect {
+  max-width: 800px;
+  margin: 30px auto 0;
+  padding: 18px;
+  background: rgba(255,255,255,0.02); /* very subtle */
+  border-radius: 10px;
+  color: #bfc9d6;
+}
+
+.connect-title {
+  font-size: 1.15rem;
+  margin-bottom: 8px;
+  color: #fff;
+}
+
+.connect-text {
+  line-height: 1.6;
+  font-size: 0.98rem;
+  color: #bfc9d6;
+}
+
+/* responsive tweaks */
+@media (max-width: 640px) {
+  .contact-section { padding: 36px 14px; }
+  .contact-row { gap: 12px; }
+  .contact-icon { width: 28px; height: 28px; }
+  .contact-value { font-size: 1rem; }
+}

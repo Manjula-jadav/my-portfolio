@@ -1,0 +1,143 @@
+/* === Global Dark Theme === */
+:root {
+  --bg-color: #0d1117;
+  --text-color: #e6edf3;
+  --accent: #3b82f6;  /* blue */
+  --card-bg: #161b22;
+  --border-color: #30363d;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: "Inter", system-ui, sans-serif;
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5 {
+  color: var(--text-color);
+}
+
+section {
+  padding: 4rem 0;
+}
+
+a, button {
+  color: var(--text-color);
+}
+
+/* Navbar */
+.navbar {
+  background-color: var(--card-bg) !important;
+}
+.nav-link {
+  color: var(--text-color) !important;
+}
+.nav-link:hover {
+  color: var(--accent) !important;
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: var(--accent);
+  border-color: var(--accent);
+}
+.btn-primary:hover {
+  background-color: #2563eb;
+}
+
+/* Card & Section Containers */
+.card {
+  background-color: var(--card-bg);
+  border: 1px solid var(--border-color);
+  color: var(--text-color);
+}
+
+input, textarea {
+  background-color: var(--card-bg);
+  color: var(--text-color);
+  border: 1px solid var(--border-color);
+}
+input::placeholder, textarea::placeholder {
+  color: #9ca3af;
+}
+/* ====== GLOBAL SECTION SPACING FIX ====== */
+
+/* Remove extra space between sections */
+section {
+  padding: 40px 0;        /* reduce large vertical space */
+  margin: 0;              /* no unwanted margin */
+}
+
+/* Keep headings nicely spaced */
+.section-title {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  text-align: center;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+/* Keep subtitle readable and compact */
+.section-subtitle {
+  font-size: 1rem;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #b0b0b0;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Consistent layout for Education, Projects, Contact, Footer */
+.education-section,
+.projects-section,
+.contact-section,
+.footer-section {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+/* Adjust top and bottom padding for last sections */
+#contact,
+#footer {
+  padding-bottom: 30px;
+}
+
+/* Make sure footer sits close to previous section */
+footer {
+  margin-top: 0;
+  padding-top: 20px;
+}
+
+/* Optional: background transition between sections */
+section:nth-child(even) {
+  background-color: #0d1117;
+}
+
+section:nth-child(odd) {
+  background-color: #0b0f14;
+}
+/* 🔧 Force remove all extra section spacing */
+section,
+.projects-section,
+.education-section,
+.about-section,
+.contact-section,
+.footer-section {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  padding-top: 40px !important;
+  padding-bottom: 40px !important;
+}
+
+/* If you have headers or hero section, keep some space there */
+#home,
+.hero-section {
+  padding-top: 80px !important;
+  padding-bottom: 80px !important;
+}
+footer {
+  margin-top: 0;
+  padding-top: 2rem;
+}
