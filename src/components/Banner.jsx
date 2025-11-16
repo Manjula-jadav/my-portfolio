@@ -4,7 +4,7 @@ const Banner = () => {
   return (
     <section id="banner" className="banner-section">
       <div className="banner-container">
-        <img src="manjula1.jpg" alt="Manjula Jadav" className="banner-img" />
+        <img src={`${process.env.PUBLIC_URL}/manjula1.jpg`} alt="Manjula Jadav" className="banner-img" />
 
         <p className="banner-role">Frontend Developer & Data Analyst</p>
 
