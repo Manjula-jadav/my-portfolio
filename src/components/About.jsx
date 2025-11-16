@@ -34,7 +34,7 @@ const About = () => {
 
         <div className="button-group">
           <a
-            href="C:\Users\manju\OneDrive\Desktop\Resume\Manjula_Jadav_Resume1.pdf"
+            href="https://drive.google.com/file/d/1bTXc69UmPwG4fpgrJoZ3plwgRNSUxqA7/view?usp=drivesdk"
             className="btn-primary"
             download
           >
