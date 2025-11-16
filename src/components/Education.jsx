@@ -71,7 +71,7 @@ const Education = () => {
         {/* SSC */}
         <div className="education-card gradient-teal">
           <span className="edu-badge">Secondary School Certificate (SSC)</span>
-          <h3 className="edu-degree">TTWURJC School, Hyderabad</h3>
+          <h3 className="edu-degree">ZP HIGH SCHOOL</h3>
 
           <div className="edu-details">
             <p>
