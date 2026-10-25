@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 import "./Skills.css";
-import { Languages } from "lucide-react";
+import {
+  Code,
+  Database
+} from "lucide-react";
 
 const categories = {
  Languages: [

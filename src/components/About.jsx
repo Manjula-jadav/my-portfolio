@@ -1,6 +1,11 @@
 import React from "react";
 import "./About.css";
-import { FaMapMarkerAlt, FaEnvelope, FaPhoneAlt } from "react-icons/fa";
+import {
+  FaGithub,
+  FaLinkedin,
+  FaMapMarkerAlt,
+  FaPhoneAlt
+} from "react-icons/fa";
 import { FiExternalLink } from "react-icons/fi";
 
 const About = () => {
