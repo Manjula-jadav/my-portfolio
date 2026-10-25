@@ -5,7 +5,7 @@ export default function NavbarComp() {
   return (
     <Navbar expand="lg" bg="light" variant="light" sticky="top" className="shadow-sm">
       <Container>
-        <Navbar.Brand href="#home">Manjula Jadav</Navbar.Brand>
+        <Navbar.Brand href="#home">Jadav Manjula</Navbar.Brand>
         <Navbar.Toggle aria-controls="main-navbar" />
         <Navbar.Collapse id="main-navbar">
           <Nav className="ms-auto">

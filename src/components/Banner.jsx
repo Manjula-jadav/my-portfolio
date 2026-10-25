@@ -6,24 +6,23 @@ const Banner = () => {
       <div className="banner-container">
         <img src={`${process.env.PUBLIC_URL}/manjula1.jpg`} alt="Manjula Jadav" className="banner-img" />
 
-        <p className="banner-role">Frontend Developer & Data Analyst</p>
+        <p className="banner-role">Software Engineer | AI & Web Development</p>
 
         <h1 className="banner-name">
-          Manjula <span>Jadav</span>
+          Jadav <span>Manjula</span>
         </h1>
 
         <p className="banner-description">
-          Delivering end-to-end solutions, from building responsive web apps to
-          developing AI & ML-driven systems. Skilled in React, JavaScript,
-          Python, and SQL — combining creativity with analytical thinking to
-          build seamless web experiences.
+          Aspiring Software Engineer skilled in Java, Python, SQL, and AI/ML, with knowledge of the Software Development Life Cycle (SDLC) and frontend technologies like HTML, CSS, JavaScript, and React. Passionate about building intelligent applications and developing efficient, scalable software solutions.
         </p>
 
         <div className="banner-tags">
-          <span>React</span>
+          <span>Java</span>
           <span>Python</span>
           <span>SQL</span>
           <span>JavaScript</span>
+          <span>AI/ML</span>
+          <span>React.js</span>
         </div>
 
         <div className="banner-buttons">

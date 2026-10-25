@@ -3,32 +3,51 @@ import "./Skills.css";
 import { Languages } from "lucide-react";
 
 const categories = {
+ Languages: [
+    { name: "Java", level: 85 },
+    { name: "Python", level: 80 },
+    { name: "C++", level: 85 },
+    { name: "C", level: 70 },
+    { name: "JavaScript", level: 75 },
+  ],
+  SoftwareEngineering: [
+    { name: "Object-Oriented Programming (OOP)", level: 85 },
+    { name: "Data Structures & Algorithms", level: 70 },
+    { name: "Software Development Life Cycle (SDLC)", level: 75 },
+    { name: "Problem-Solving", level: 75 },
+    { name: "Unit Testing / JUnit", level: 65 },
+  ],
+  AI: [
+    { name: "Machine Learning", level: 75 },
+    { name: "Deep Learning", level: 70 },
+    { name: "Scikit-learn", level: 70 },
+    { name: "TensorFlow / Keras", level: 65 },
+    { name: "Model Evaluation", level: 70 },
+    { name: "Data Preprocessing", level: 75 },
+  ],
   Frontend: [
     { name: "HTML5", level: 90 },
     { name: "CSS", level: 85 },
-    { name: "JavaScript", level: 80 },
     { name: "Responsive Design", level: 90 },
     { name: "API Integration", level: 75 },
   ],
-  Design: [
-    { name: "Figma", level: 85 },
-    { name: "UI/UX Design", level: 80 },
-    { name: "Canva", level: 90 },
+  Databases: [
+    { name: "SQL", level: 90 },
+    { name: "DBMS", level: 85 },
+    { name: "Database Design", level: 80 },
   ],
   Frameworks: [
     { name: "React.js", level: 85 },
     { name: "Bootstrap", level: 80 },
     { name: "Tailwind CSS", level: 70 },
   ],
-   Languages: [
-    { name: "Python", level: 80 },
-    { name: "Java", level: 70 },
-    { name: "C++", level: 90 },
-    { name: "C", level: 90 },
-  ],
-  "Tools & AI": [
-    { name: "Git / GitHub", level: 85 },
-    { name: "VS Code", level: 90 },
+  "Tools": [
+    { name: "Git / GitHub", level: 80 },
+    { name: "VS Code", level: 85 },
+    { name: "Eclipse IDE", level: 80 },
+    { name: "Jupyter Notebook", level: 75 },
+    { name: "Figma", level: 65 },
+    { name: "Vercel", level: 70 },
     { name: "ChatGPT", level: 80 },
   ],
 };
@@ -46,8 +65,7 @@ export default function Skills() {
       <div className="skills-container">
         <h2 className="section-title">Technical Skills</h2>
         <p className="section-desc">
-          A comprehensive overview of my technical expertise across various domains, 
-          from frontend development to UI/UX design.
+          My technical expertise spans programming, software engineering, AI/ML, database management, and web development, with a focus on building efficient and practical software solutions.
         </p>
 
         <input

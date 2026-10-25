@@ -13,23 +13,25 @@ const About = () => {
           create impactful web solutions.
         </p>
 
-        <h3 className="role-title">Frontend Developer</h3>
+        <h3 className="role-title">Software Engineer & AI Enthusiast</h3>
 
         <p className="about-text">
-          As a Front-End Developer Intern at Cognifyz Technologies, collaborative innovation is my forte, especially in translating academic insights from my ongoing Information Technology studies at Gokaraju Lailavathi Engineering College (Osmania University) into practical web development solutions. My role involves enhancing user interfaces and leveraging responsive design using HTML, CSS, JavaScript, and React, contributing to projects that improve user engagement and visual appeal.
+          ### Software Engineer | AI & Application Development
+
+I am a B.Tech graduate in Information Technology with a strong interest in software engineering, artificial intelligence, and application development. Currently, I am undertaking an AI-Engineer internship at Infosys, where I am strengthening my technical knowledge and exploring AI-driven solutions.
         </p>
 
         <p className="about-text">
-          My engineering background has strengthened my analytical thinking,
-          enabling me to craft efficient frontend solutions while writing
-          maintainable code. I’m constantly learning modern frameworks and
-          enhancing my expertise to deliver seamless digital experiences.
+          My technical skills include Java, Python, SQL, HTML, CSS, JavaScript, and React.js, along with knowledge of software development principles, database management, and machine learning. I enjoy solving problems, learning emerging technologies, and building practical applications that combine intelligent solutions with user-friendly experiences.
+        </p>
+        <p className="about-text">
+          I aspire to grow as a Software Engineer, contribute to impactful projects, and develop scalable, efficient, and innovative software solutions.
         </p>
 
         <div className="tag-container">
-          <span className="tag web">Web Development</span>
-          <span className="tag cpp">Computer Science</span>
-          <span className="tag design">Responsive Design</span>
+          <span className="tag web">Java Development</span>
+          <span className="tag cpp">Artificial Intelligence </span>
+          <span className="tag design">Software Development</span>
         </div>
 
         <div className="button-group">
@@ -70,14 +72,13 @@ const About = () => {
 
           <div className="summary-item">
             <strong>Specialization:</strong>
-            <p>Frontend Development, C++ Programming, Responsive Design</p>
+            <p>Software Engineering, Java, AI/ML, and Web Development</p>
           </div>
 
           <div className="summary-item">
             <strong>Current Focus:</strong>
             <p>
-              Pursuing B.E. in Information Technology while gaining practical
-              experience through projects and internships.
+              Problem-solving, programming, DSA, DBMS, SDLC, and scalable software development.
             </p>
           </div>
 

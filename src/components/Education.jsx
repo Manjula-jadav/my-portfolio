@@ -29,22 +29,17 @@ const Education = () => {
           </div>
 
           <p className="edu-description">
-            Currently pursuing a Bachelor of Engineering degree in Information Technology at
-            Gokaraju Lailavathi Engineering College, affiliated with Osmania University. The
-            program strengthens my foundation in programming, databases, and data analytics while
-            emphasizing hands-on projects and teamwork.
+            Completed a Bachelor of Technology in Information Technology,
+  developing a strong foundation in programming, software
+  engineering, database management, and computer science
+  fundamentals. Achieved a <strong>CGPA of 8.39/10</strong>.
           </p>
 
           <div className="edu-info-box">
-            <h4>Current Focus</h4>
+            <h4>Technical Focus</h4>
             <p>
-              Data Analytics, Database Management Systems, Operating Systems, and Web Technologies
+              Java Programming, Python, SQL, Artificial Intelligence & Machine Learning, Software Development, and Web Technologies.
             </p>
-          </div>
-
-          <div className="edu-info-box">
-            <h4>Expected Graduation</h4>
-            <p>May 2026 with specialization in Information Technology</p>
           </div>
         </div>
 
