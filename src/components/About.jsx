@@ -1,8 +1,6 @@
 import React from "react";
 import "./About.css";
 import {
-  FaGithub,
-  FaLinkedin,
   FaMapMarkerAlt,
   FaPhoneAlt
 } from "react-icons/fa";

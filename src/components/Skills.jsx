@@ -1,10 +1,5 @@
 import React, { useState } from "react";
 import "./Skills.css";
-import {
-  Code,
-  Database
-} from "lucide-react";
-
 const categories = {
  Languages: [
     { name: "Java", level: 85 },
